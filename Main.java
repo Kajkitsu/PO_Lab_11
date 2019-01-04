@@ -6,7 +6,6 @@ public class Main{
         Rower rower = new Rower(14.5, 1.5, 0.75, 7);
         Jednoslad skuterek = skuter;
         Samochod samochodzik = samOsobowy;
-        Jed
         System.out.println("Rower");
         
     }
