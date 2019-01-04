@@ -14,7 +14,7 @@ public class Rower extends Jednoslad implements Pojazd{
     }
     @Override
     public void zmienKierunek(String kierunek) {
-        System.out.print("Jade w ");
+        System.out.print("Jade rowerem w ");
         System.out.println(kierunek);
     }
 }
