@@ -15,32 +15,32 @@ public class SamochodOsobowy extends Samochod implements SilnikSpalinowy, Silnik
 
     @Override
     public void otworzDrzwi() {
-        System.out.println("Otwarto drzwi");
+        System.out.println("Otwarto drzwi w samochodzie osobowym");
     }
 
     @Override
     public void zamknijDrzwi() {
-        System.out.println("Zamknięto drzwi");
+        System.out.println("Zamknięto drzwi w samochodzie osobowym");
     }
 
     @Override
     public void uruchomSilnikSpalinowy(){
-        System.out.println("Uruchomiono Silnik Spalinowy");
+        System.out.println("Uruchomiono Silnik Spalinowy w samochodzie osobowym");
     }
 
     @Override
     public void wylaczSilnikSpalinowy(){
-        System.out.println("Wylaczono Silnik Spalinowy");
+        System.out.println("Wylaczono Silnik Spalinowy w samochodzie osobowym");
     }
 
     @Override
     public void uruchomSilnikElektryczny(){
-        System.out.println("Uruchomiono Silnik Elektryczny");
+        System.out.println("Uruchomiono Silnik Elektryczny w samochodzie osobowym");
     }
 
     @Override
     public void wylaczSilnikElektryczny(){
-        System.out.println("Wylaczono Silnik Elektryczny");
+        System.out.println("Wylaczono Silnik Elektryczny w samochodzie osobowym");
     }
 
     @Override
