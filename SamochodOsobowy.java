@@ -13,12 +13,49 @@ public class SamochodOsobowy extends Samochod implements SilnikSpalinowy, Silnik
         this.poziomElektryczny = poziomElektryczny;
     }
 
+    @Override
     public void otworzDrzwi() {
         System.out.println("Otwarto drzwi");
     }
 
+    @Override
     public void zamknijDrzwi() {
         System.out.println("Zamknięto drzwi");
+    }
+
+    @Override
+    public void uruchomSilnikSpalinowy(){
+        System.out.println("Uruchomiono Silnik Spalinowy");
+    }
+
+    @Override
+    public void wylaczSilnikSpalinowy(){
+        System.out.println("Wylaczono Silnik Spalinowy");
+    }
+
+    @Override
+    public void uruchomSilnikElektryczny(){
+        System.out.println("Uruchomiono Silnik Elektryczny");
+    }
+
+    @Override
+    public void wylaczSilnikElektryczny(){
+        System.out.println("Wylaczono Silnik Elektryczny");
+    }
+
+    @Override
+    public void jedz(){
+        System.out.println("Samochod Osobowy jedzie");
+    }
+
+    @Override
+    public void hamuj(){
+        System.out.println("Samochod Osobowy hamuje");
+    }
+
+    @Override
+    public void zmienKierunek(String kierunek){
+        System.out.println("Samochod osobowy zmienil kierunek jazdy na : "+kierunek);
     }
 
 }

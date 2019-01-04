@@ -1,4 +1,4 @@
-public abstract class Jednoslad extends Pojazd{
+public abstract class Jednoslad implements Pojazd{
     protected double masa;
     protected double rozstawKol;
     protected double wysokoscSiedzenia;

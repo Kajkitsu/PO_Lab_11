@@ -1,4 +1,4 @@
-public class Samochod implements Pojazd{
+public abstract class Samochod implements Pojazd{
     protected int liczbaMiejsc = 0;
     protected int pojemnoscBagaznika = 0;
     protected String nazwa = null;
