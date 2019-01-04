@@ -9,6 +9,11 @@ public class Main{
         SilnikSpalinowy silSpal = samOsobowy;
         Samochod samocho = samOsobowy;
 
+        Jednoslad jednoskuter = skuter;
+        Jednoslad jednorower = rower;
+
+        SilnikElektryczny eleskuter = skuter;
+
         silEl.uruchomSilnikElektryczny();
         silEl.wylaczSilnikElektryczny();
 
@@ -17,6 +22,15 @@ public class Main{
 
         samocho.otworzDrzwi();
         samocho.zamknijDrzwi();
+
+        eleskuter.uruchomSilnikElektryczny();
+
+        jednorower.jedz();
+        jednoskuter.jedz();
+
+
+
+
         
     }
 }
