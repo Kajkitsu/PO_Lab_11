@@ -1,9 +1,9 @@
 public class SamochodOsobowy extends Samochod implements SilnikSpalinowy, SilnikElektryczny {
 
-    protected int liczbaCylindrow = 0;
-    protected int liczbaZaworow = 0;
-    protected int moc = 0;
-    protected float poziomElektryczny = 0;
+    protected int liczbaCylindrow;
+    protected int liczbaZaworow;
+    protected int moc;
+    protected float poziomElektryczny;
 
     public SamochodOsobowy(String nazwa, int liczbaMiejsc, int pojemnoscBagaznika, int liczbaCylindrow, int liczbaZaworow, int moc, float poziomElektryczny) {
         super(nazwa, liczbaMiejsc, pojemnoscBagaznika);
@@ -20,7 +20,7 @@ public class SamochodOsobowy extends Samochod implements SilnikSpalinowy, Silnik
 
     @Override
     public void zamknijDrzwi() {
-        System.out.println("Zamknięto drzwi w samochodzie osobowym");
+        System.out.println("Zamknieto drzwi w samochodzie osobowym");
     }
 
     @Override
@@ -55,7 +55,7 @@ public class SamochodOsobowy extends Samochod implements SilnikSpalinowy, Silnik
 
     @Override
     public void zmienKierunek(String kierunek){
-        System.out.println("Samochod osobowy zmienil kierunek jazdy na : "+kierunek);
+        System.out.println("Samochod osobowy zmienil kierunek jazdy na: "+kierunek);
     }
 
 }

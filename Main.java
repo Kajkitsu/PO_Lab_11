@@ -16,6 +16,7 @@ public class Main{
 
         silEl.uruchomSilnikElektryczny();
         silEl.wylaczSilnikElektryczny();
+        samOsobowy.jedz();
 
         silSpal.uruchomSilnikSpalinowy();
         silSpal.wylaczSilnikSpalinowy();
@@ -27,10 +28,6 @@ public class Main{
 
         jednorower.jedz();
         jednoskuter.jedz();
-
-
-
-
         
     }
 }

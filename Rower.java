@@ -6,15 +6,14 @@ public class Rower extends Jednoslad implements Pojazd{
     }
     @Override
     public void hamuj() {
-        System.out.println("Hamuje rowerem");
+        System.out.println("Rower hamuje");
     }
     @Override
     public void jedz() {
-        System.out.println("Jade rowerem");
+        System.out.println("Rower jedzie");
     }
     @Override
     public void zmienKierunek(String kierunek) {
-        System.out.print("Jade rowerem w ");
-        System.out.println(kierunek);
+        System.out.println("Rower zmienil kierunek jazdy na:"+kierunek);
     }
 }

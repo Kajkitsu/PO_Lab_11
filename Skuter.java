@@ -15,23 +15,22 @@ public class Skuter extends Jednoslad implements Pojazd, SilnikElektryczny{
 
     @Override
     public void hamuj() {
-        System.out.println("Hamuje skuterem");
+        System.out.println("Skuter hamuje");
     }
     @Override
     public void jedz() {
-        System.out.println("Jade skuterem");
+        System.out.println("Skuter jedzie");
     }
     @Override
     public void zmienKierunek(String kierunek) {
-        System.out.print("Jade skuterem w ");
-        System.out.println(kierunek);
+        System.out.println("Skuter zminil kierunek jazdy na: "+kierunek);
     }
     @Override
     public void uruchomSilnikElektryczny(){
-        System.out.println("Uruchomiono silnik Elektryczny w skuterze");
+        System.out.println("Uruchomiono silnik elektryczny w skuterze");
     }
     @Override
     public void wylaczSilnikElektryczny(){
-        System.out.println("Wyłączono silnik Elektryczny w skuterze");
+        System.out.println("Wylaczono silnik elektryczny w skuterze");
     }
 }
